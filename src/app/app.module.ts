@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SeletonLoaderModule } from './seleton-loader/seleton-loader.module';
+import { SkeletonLoaderModule } from './skeleton-loader/skeleton-loader.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { SeletonLoaderModule } from './seleton-loader/seleton-loader.module';
   ],
   imports: [
     BrowserModule,
-    SeletonLoaderModule
+    SkeletonLoaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,13 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'angular-demo';
+
   loaded = false;
 
-  ngOnInit() {
+  ngOnInit(): void {
     setInterval(() => {
       this.loaded = true;
     }, 3000);
   }
-
-
 }
